@@ -1,0 +1,87 @@
+@import '../../style/base/theme';
+.about {
+  background-color: white;
+  min-height: 60rem;
+  .icon-background {
+    width: 100%;
+    height: 17rem;
+
+    svg {
+      width: 15rem;
+      height: 15rem;
+      box-shadow: 12px 34px 40px -45px;
+    }
+  }
+  h2 {
+    color: $color-grey;
+    font-weight: bolder;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+  }
+  p {
+    color: $color-muted;
+    margin-top: 0.2rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 18pt;
+    font-family: Raleway;
+  }
+  .profile {
+    text-align: center;
+    padding: 8rem 0px;
+    img {
+      width: 50%;
+      min-height: 20rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      line-height: 3rem;
+      padding: 0 2rem;
+      text-align: center;
+      span {
+        text-align: center;
+      }
+    }
+  }
+  .bar {
+    display: flex;
+    background: #ddd;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    height: 3rem;
+
+    .bar__fill {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $color-primary;
+      height: 100%;
+      animation: slide_in 3s ease-in-out;
+    }
+    .bar__tag {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $color-grey;
+      width: 15rem;
+      color: white;
+      height: 100%;
+      font-size: 2rem;
+    }
+    span {
+      align-items: flex-end;
+      z-index: 1;
+      margin-right: 0.8rem;
+      color: $color-grey;
+    }
+  }
+  @keyframes slide_in {
+    from {
+      width: 0%;
+    }
+    to {
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@import '../../style/base/theme';
+.contact {
+  background-color: $color-grey;
+
+  max-height: 100rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  margin-top: -20rem;
+  clip-path: polygon(50% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);
+  .contact_greetings {
+    color: $color-primary;
+    font-weight: 300;
+  }
+  .contact_confirmation {
+    color: white;
+    background: rgba(34, 40, 49, 0.342);
+    position: absolute;
+    left: 0;
+    padding: 1rem;
+    animation: slide-in-left 1s forwards ease-in-out;
+  }
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-30rem);
+      opacity: 0;
+    }
+    90% {
+      transform: translateX(0rem);
+      opacity: 1;
+    }
+  }
+  .contact_form {
+    // background: $color-dark;
+    width: 60%;
+    padding: 2rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    .contact_submit {
+      align-self: flex-start;
+      width: 20rem;
+      height: 5rem;
+      padding: 0.5rem;
+      border: 0.2rem solid white;
+      cursor: pointer;
+      color: white;
+      background: transparent;
+      transition: all 0.5s ease;
+      &:hover {
+        background-color: $color-primary;
+        color: white;
+        border: 0.2rem solid$color-primary;
+      }
+    }
+    input {
+      flex: 1;
+      border: none;
+      padding: 1rem;
+    }
+    textarea {
+      border: none;
+      flex: 1;
+      min-height: 15rem;
+      padding: 1.5rem;
+    }
+    .form_field {
+      background-color: $color-dark;
+      color: white;
+      margin: 0.5rem;
+      font-size: 2rem;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .contact {
+    .contact_form {
+      width: 100%;
+    }
+  }
+}

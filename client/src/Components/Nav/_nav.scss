@@ -1,0 +1,28 @@
+@import '../../style/base/theme';
+.navbar {
+  color: white;
+  width: 100vw;
+  padding: 1rem;
+  border-bottom: 2px solid $color-primary;
+  box-shadow: 0px 15px 12px -15px rgba(0, 0, 0, 0.68);
+  background-image: linear-gradient(
+    to right,
+    rgba(34, 40, 49, 1),
+    rgba(57, 62, 70, 0.8)
+  );
+
+  .nav-link {
+    font-size: 1.8rem !important;
+    text-transform: uppercase;
+    color: white !important;
+    margin-right: 3rem;
+
+    &:hover {
+      color: $color-primary !important;
+    }
+    transition: all 0.5s ease;
+  }
+  .active {
+    color: $color-primary !important;
+  }
+}

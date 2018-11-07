@@ -1,0 +1,15 @@
+$color-primary: #08d9d6;
+$color-dark: #222831;
+$color-light: #f5f5f5;
+$color-grey: #393e46;
+$color-muted: #616161;
+
+button {
+  cursor: pointer !important;
+}
+p {
+  font-size: 1.9rem !important;
+  font-family: Lato !important;
+  font-weight: 300 !important;
+  color: $color-dark !important;
+}

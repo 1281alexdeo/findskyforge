@@ -1,0 +1,20 @@
+@import '../../style/base/theme';
+.heading {
+  padding-bottom: 6rem;
+  h1 {
+    padding-top: 10rem;
+    color: $color-grey;
+    font-weight: 600;
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  .line {
+    width: 10rem;
+    color: #08d9d6;
+    border: 1px solid #08d9d6;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
