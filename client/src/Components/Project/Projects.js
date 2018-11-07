@@ -32,7 +32,7 @@ export class Projects extends Component {
       {
         id: 3,
         title: 'Pay Book',
-        tech: 'ReactJS + Express + Node + Stripe API',
+        tech: 'NodeJS + Express + Stripe API',
         img: website,
         url: 'https://gory-treat-88696.herokuapp.com/'
       },
