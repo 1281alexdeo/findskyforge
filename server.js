@@ -1,9 +1,12 @@
 const express = require('express');
+const compression = require('compression');
 const bodyParser = require('body-parser');
 const email = require('./Routes/api/email');
 const path = require('path');
 const app = express();
 
+//add text compression
+app.use(compression());
 //Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
