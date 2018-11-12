@@ -57,6 +57,7 @@ export class Contact extends Component {
           {success && <h3 className="contact_confirmation">{success}</h3>}
 
           <form onSubmit={this.onSubmit} className="contact_form">
+            <label htmlFor="name" />
             <input
               className="contact_email form_field"
               type="text"
@@ -65,6 +66,7 @@ export class Contact extends Component {
               placeholder="Name"
               onChange={this.onChange}
             />
+            <label htmlFor="email" />
             <input
               className="contact_email form_field"
               type="text"
@@ -79,6 +81,7 @@ export class Contact extends Component {
                 {errors.email}
               </small>
             )}
+            <label htmlFor="message" />
             <textarea
               className="contact_message form_field"
               type="text"
