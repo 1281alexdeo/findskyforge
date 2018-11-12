@@ -7,7 +7,7 @@ import { ReactComponent as Reactcar } from '../../img/car.svg';
 import { ReactComponent as Responsive } from '../../img/Responsive.svg';
 import { ReactComponent as Light } from '../../img/LightBulb.svg';
 import { ReactComponent as Dynamic } from '../../img/Dynamic.svg';
-import ProfilePic from '../../img/ProfilePic.png';
+import ProfilePic from '../../img/ProfilePic.svg';
 
 import { Card } from './Card';
 import { ProgressBar } from './ProgressBar';
