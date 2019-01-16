@@ -13,7 +13,7 @@ export class Home extends Component {
               <br />
               I'm a full-stack web developer.
             </h1>
-            <a href={'./doc/Resume.pdf'} download="Resume">
+          <a href={'./doc/Resume.pdf'} download="Resume">
               <button className="home_btn">Download Resume</button>
             </a>
           </div>
