@@ -63,52 +63,52 @@ export class About extends Component {
                     <ProgressBar
                       style={{ width: '90%' }}
                       tag="HTML"
-                      percentage="90%"
+                      percentage="90"
                     />
                     <ProgressBar
                       style={{ width: '90%' }}
                       tag="CSS"
-                      percentage="90%"
+                      percentage="90"
                     />
                     <ProgressBar
                       style={{ width: '88%' }}
                       tag="React"
-                      percentage="80%"
+                      percentage="80"
                     />
                     <ProgressBar
                       style={{ width: '75%' }}
                       tag="Redux"
-                      percentage="75%"
+                      percentage="75"
                     />
                     <ProgressBar
                       style={{ width: '60%' }}
                       tag="Node.js"
-                      percentage="50%"
+                      percentage="50"
                     />
                     <ProgressBar
                       style={{ width: '60%' }}
                       tag="MongoDB"
-                      percentage="50%"
+                      percentage="50"
                     />
                     <ProgressBar
                       style={{ width: '70%' }}
                       tag="UI/UX Design"
-                      percentage="70%"
+                      percentage="70"
                     />
                     <ProgressBar
                       style={{ width: '90%' }}
                       tag="Agile"
-                      percentage="90%"
+                      percentage="90"
                     />
                     <ProgressBar
                       style={{ width: '90%' }}
                       tag="SDLC"
-                      percentage="90%"
+                      percentage="90"
                     />
                     <ProgressBar
                       style={{ width: '60%' }}
                       tag="Figma"
-                      percentage="50%"
+                      percentage="50"
                     />
                   </div>
                 </div>
