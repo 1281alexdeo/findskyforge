@@ -14,7 +14,6 @@ export const ProgressBar = ({ style, tag, percentage }) => {
       >
         {props => <div className="percent">{props.number.toFixed(0)} %</div>}
       </Spring>
-      {/* <span>{percentage}</span> */}
     </div>
   );
 };
